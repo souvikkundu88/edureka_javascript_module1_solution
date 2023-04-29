@@ -7,7 +7,7 @@ button, this application displays the income tax owed.
 Income Tax Slabs: 
  
 Income Amount                                     Income Tax Percentage
- 
+
 Less than or equal to 2,50,000                            No Tax 
 
 Greater than 2,50,000 and less than or 
@@ -22,8 +22,8 @@ Steps:
 ▪ Accept the income amount entered by the user 
 ▪ Prompt the user if it is an invalid input 
 ▪ Refer to the income tax slabs given above to calculate the income tax 
- 
 */
+
 function calculateTax() {
     let income = parseFloat(document.getElementById("income").value);
     let tax = 0;
