@@ -9,11 +9,10 @@ We want to write a program that takes an input number and displays the sum of it
 
 // solution
 
-"use strict"
-const prompt = require("prompt-sync")({sigint: true});
+//"use strict"
+// const prompt = require("prompt-sync")({sigint: true});
 
 // set sum to zero
-
 let sum = 0;
 // take a four digit input from the user, convert to int
 let number = parseInt(prompt("Enter a number within the range of 0 to 9999: "));
