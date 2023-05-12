@@ -9,8 +9,8 @@ We want to write a program that takes an input number and displays the sum of it
 
 // solution
 
-//"use strict"
-// const prompt = require("prompt-sync")({sigint: true});
+"use strict"
+const prompt = require("prompt-sync")({sigint: true});
 
 // set sum to zero
 let sum = 0;
