@@ -41,3 +41,5 @@ console.log("Sum of digits is " + sum);
 } else {
     console.log("you have entered an invalid number!");
 }
+
+// thank you
