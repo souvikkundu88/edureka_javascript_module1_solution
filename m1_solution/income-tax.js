@@ -46,4 +46,3 @@ function calculateTax() {
     document.getElementById("result").innerHTML = "Income Tax: " + tax.toFixed(2);
   }
   
-
